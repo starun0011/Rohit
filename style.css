@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+}
+
+/* ~~~~~~~~~~~ Navigation section CSS ~~~~~~~~~~~~~~~ */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border: 1px solid black;
+}
+
+#nav_sec_left {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-left: 12px;
+}
+
+#logo {
+  height: 30px;
+  margin-right: 12px;
+  width: auto;
+}
+
+#nav_item {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+#nav_item li {
+  list-style: none;
+}
+
+#nav_item li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#log_btn {
+  margin-right: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* ~~~~~~~~~~~ main section CSS ~~~~~~~~~~~~~~~ */
+#main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#left_section {
+  height: 100%;
+  width: 22%;
+}
+
+#aside_items {
+  padding: 28px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+#aside_items li {
+  list-style: none;
+  width: 100%;
+}
+
+#aside_items li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 3px;
+  padding-left: 18px;
+}
+
+#aside_items li:hover,
+.active {
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#right_section {
+  height: 100%;
+  width: 75%;
+  padding: 28px 0px;
+}
+
+#right_upper {
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+#category {
+  text-decoration: none;
+  color: black;
+}
+
+#right_lower {
+  background-color: white;
+  height: 100%;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
